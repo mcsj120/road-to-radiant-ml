@@ -7,11 +7,11 @@ class databaseConnecter:
         with open('./config.json') as f:
             data = json.load(f)
             self.connection = pg.connect(
-                user=data.user,
-                password=data.password,
-                host=data.host,
-                port=data.port,
-                database=data.database
+                user=data['user'],
+                password=data['password'],
+                host=data['host'],
+                port=data['port'],
+                database=data['database']
             )
 
         self.cursor = self.connection.cursor()

@@ -1,0 +1,6 @@
+numpy @ file:///C:/ci/numpy_and_numpy_base_1634088717532/work
+pandas @ file:///C:/ci/pandas_1635506685681/work
+psycopg2-binary==2.9.1
+scipy @ file:///C:/ci/scipy_1630606917240/work
+tensorflow==2.5.0
+tensorflow-gpu==2.5.0
