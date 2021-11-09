@@ -1,7 +1,5 @@
 import db
-import numpy as np 
-import pandas as pd 
-import json
+import pandas as pd
 import teammate as tm
 from os import path
 

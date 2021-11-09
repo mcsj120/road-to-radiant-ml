@@ -1,4 +1,3 @@
-
 class teammate:
     def __init__(self, parse, type):
         info = parse.split(",")
